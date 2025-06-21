@@ -1,9 +1,8 @@
 .overall {
-  border: 1px solid black;
-  width: 100%;
   max-width: 1920px;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
 }
 
 .navComp {
@@ -12,12 +11,11 @@
   background-color: white;
   z-index: 20;
   padding: 10px;
-  border: 1px solid black;
 }
 
 .navContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding-left: 50px;
   padding-right: 100px;

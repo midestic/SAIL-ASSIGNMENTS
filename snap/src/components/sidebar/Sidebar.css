@@ -1,0 +1,54 @@
+.sideComp {
+  display: none;
+}
+
+.sideCon {
+  display: none;
+}
+@media (max-width: 768px) {
+  .sideComp {
+    width: 70%;
+    float: right;
+    display: flex;
+    justify-content: end;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .sideCon {
+    width: 70%;
+    height: 100vh;
+    z-index: 100;
+    position: fixed;
+    background-color: white;
+    display: block;
+    background-color: #fafafa;
+  }
+
+  .closeDiv {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .featuresDiv {
+    margin-top: 50px;
+  }
+
+  .featuresDiv ul {
+    list-style: none;
+  }
+
+  .featuresDiv li {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: gray;
+  }
+}

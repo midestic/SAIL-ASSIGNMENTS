@@ -1,0 +1,211 @@
+.heroComp {
+  margin-top: 100px;
+}
+
+.heroContainer {
+  width: 70%;
+
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.hero1,
+.hero2 {
+  width: 50%;
+}
+
+.hero1 {
+  display: flex;
+  height: auto;
+  justify-content: start;
+  align-items: center;
+}
+
+.heroInner {
+  width: 90%;
+  margin-top: 50px;
+}
+
+.heroInner h1 {
+  font-weight: 700;
+  font-size: 96px;
+  margin: 0;
+}
+
+.heroInner span {
+  font-weight: 700;
+  font-size: 96px;
+  margin: 0;
+  line-height: 40px;
+}
+
+.rDiv {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroInner p {
+  width: 95%;
+  font-weight: 400;
+  font-size: 23px;
+  color: gray;
+}
+
+.heroInner button {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.heroInner button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.clientDiv {
+  width: 80%;
+
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero2 img {
+  width: 300px;
+}
+
+.mr {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .heroComp {
+    margin-top: 50px;
+  }
+
+  .heroContainer {
+    width: 95%;
+
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column-reverse;
+    margin-top: 0px;
+  }
+
+  .hero1,
+  .hero2 {
+    width: 100%;
+  }
+
+  .hero1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .heroInner {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .heroInner h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+    width: 100%;
+    display: none;
+  }
+
+  .heroInner span {
+    font-weight: 700;
+    font-size: 50px;
+    width: 100%;
+    display: none;
+  }
+
+  .rDiv {
+    width: 100%;
+  }
+
+  .mr {
+    display: block;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .heroInner p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+  }
+
+  .heroInner button {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 150px;
+    -radius: 10px;
+    margin-top: 40px;
+  }
+
+  .clientDiv {
+    width: auto;
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .clientDiv img {
+    /* transform: scale(50%); */
+    width: 50px;
+  }
+
+  .hero2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .btnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .hero2 img {
+    width: 100%;
+  }
+}

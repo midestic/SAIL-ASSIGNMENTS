@@ -1,0 +1,169 @@
+.overall {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.navComp {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 20;
+  padding: 10px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav1 {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav2 {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.menuItems {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav2 button {
+  font-weight: 700;
+  font-size: 19px;
+  color: gray;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav2 button:hover {
+  color: black;
+}
+
+.btn1 {
+  background-color: white;
+  border: none;
+}
+
+.btn2 {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.menuItems span {
+  font-weight: 700;
+  font-size: 19px;
+  color: gray;
+}
+
+.menuItems span:hover {
+  color: black;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+  }
+
+  .menu {
+    display: block;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .nav1 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav2 {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+  }
+
+  .logo {
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .menuItems {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+  }
+
+  .nav2 button {
+    font-weight: 700;
+    font-size: 19px;
+    color: gray;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .btn1 {
+    background-color: white;
+    border: none;
+  }
+
+  .btn2 {
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  .menuItems span {
+    font-weight: 700;
+    font-size: 19px;
+    color: gray;
+  }
+}

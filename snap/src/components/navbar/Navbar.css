@@ -1,16 +1,7 @@
-.overall {
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-}
-
 .navComp {
-  position: fixed;
   width: 100%;
   background-color: white;
-  z-index: 20;
-  padding: 10px;
+  border-bottom: 1px solid gray;
 }
 
 .navContainer {
@@ -93,15 +84,25 @@
 }
 
 @media (max-width: 768px) {
+  .overall {
+    vertical-align: top;
+    border-bottom: 1px solid gray;
+  }
+  .navComp {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    vertical-align: top;
+    border-bottom: 1px solid gray;
+  }
+
   .navContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 100px;
-    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
     padding-bottom: 10px;
-    padding: 10px;
   }
 
   .menu {

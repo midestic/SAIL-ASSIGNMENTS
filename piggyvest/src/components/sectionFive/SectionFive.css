@@ -1,0 +1,82 @@
+.sectionFive {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sect5Title {
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+}
+
+.sect5Sub {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+}
+
+.sect5Box {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid; */
+  background-color: #7913e5;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.s5Box1,
+.s5Box2 {
+  width: 50%;
+  height: 400px;
+  /* border: 1px solid; */
+  color: white;
+}
+
+.s5Box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.s5Box1 .p1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 0;
+}
+
+.s5Box1 .p2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 55%;
+}
+
+.s5Box1 span {
+  width: 40%;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s5Box2 {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.s5Box2 img {
+  width: 75%;
+}

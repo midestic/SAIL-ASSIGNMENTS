@@ -1,0 +1,52 @@
+.sectionThree {
+  background-color: #f2f7f8;
+}
+
+.sect3Div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid; */
+}
+
+.sect3Div1 {
+  /* border: 1px solid; */
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spSpan {
+  width: 75%;
+}
+
+.padlock {
+  width: 110px;
+}
+
+.sp {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.spText {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.spMore {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.spDiv {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}

@@ -1,0 +1,27 @@
+.sectionEight {
+  background-color: #f2f7f8;
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
+
+.sect8Div p {
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: center;
+  margin: 0;
+}
+
+.s8BrandDiv {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s8BrandDiv img {
+  width: 10%;
+}

@@ -1,0 +1,119 @@
+.footerComp {
+  width: 100%;
+}
+
+.footer {
+  /* background-color: #f2f7f8; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footDiv {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.fDivOne {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 20%;
+}
+
+.fDivFive {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.fDivTwo,
+.fDivThree,
+.fDivFour {
+  width: auto;
+}
+
+.fDivOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.f1 {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.f2 {
+  width: 150px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+ul :first-child {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.listDiv {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.fDivFive {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  padding-left: 40px;
+}
+
+.fDivFive div {
+  width: 50%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fAddress {
+  text-align: end;
+  width: 90%;
+}
+
+.bottomDiv {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-top: 0.5px solid lightgray;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  background-color: #ffffff;
+}
+
+.bottomDiv p {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 65%;
+  color: rgba(61, 79, 96, 0.65);
+}

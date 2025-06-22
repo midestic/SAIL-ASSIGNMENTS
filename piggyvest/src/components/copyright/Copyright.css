@@ -1,0 +1,22 @@
+.bottomDiv {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-top: 0.5px solid lightgray;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  background-color: #ffffff;
+}
+
+.bottomDiv p {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 65%;
+  color: rgba(61, 79, 96, 0.65);
+}
+
+.year {
+  color: rgb(8, 62, 158);
+}

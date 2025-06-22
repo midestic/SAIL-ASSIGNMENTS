@@ -1,0 +1,110 @@
+.sectionFour {
+  background-color: #f2f7f8;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.s4Title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 66px;
+  text-align: center;
+}
+
+.s4Sub {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+}
+
+.boxDiv {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.s4box1,
+.s4box2,
+.s4box3,
+.s4box4,
+.s4box5,
+.s4box6 {
+  width: 48%;
+  /* border: 1px solid; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-top: 25px;
+
+  box-sizing: border-box;
+  color: white;
+}
+
+.s4box1 {
+  background-color: #0f60d6;
+}
+.s4box2 {
+  background-color: #2295f2;
+}
+
+.s4box3 {
+  background-color: #39c277;
+}
+
+.s4box4 {
+  background-color: #e5489b;
+}
+
+.s4box5 {
+  background-color: #0c1825;
+}
+
+.s4box6 {
+  background-color: #ff783c;
+}
+
+.s4b1 {
+  /* border: 1px solid; */
+  padding: 20px;
+}
+
+.boxDiv .p1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.boxDiv .p2 {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 65%;
+}
+
+.s4b2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* border: 1px solid; */
+}
+
+.asImg {
+  /* transform: scale(40%); */
+  width: 70%;
+}
+
+.s4Label {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid; */
+  margin-bottom: 20px;
+}

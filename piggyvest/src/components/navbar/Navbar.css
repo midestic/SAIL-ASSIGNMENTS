@@ -64,6 +64,12 @@
   display: none;
 }
 @media (max-width: 768px) {
+  .navBox {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+  }
   .navComp {
     display: none;
   }
@@ -72,6 +78,7 @@
   }
 
   .mobileCont {
+    margin-right: auto;
     display: block;
     width: 100%;
     position: fixed;
@@ -116,6 +123,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid;
+    padding-right: 50px;
   }
 
   .itemsDiv ul {

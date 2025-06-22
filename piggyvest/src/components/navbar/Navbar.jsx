@@ -8,7 +8,7 @@ export default function Navbar() {
   let logo = "/images/logo.svg";
 
   return (
-    <div>
+    <div className="navBox">
       <div className="navComp">
         <div className="navbar">
           <div className="nav1">

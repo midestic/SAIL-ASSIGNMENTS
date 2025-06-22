@@ -49,6 +49,9 @@
   font-size: 16px;
   font-weight: 600;
   color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .heroTitle {
@@ -85,6 +88,7 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 27px;
+  margin-left: 10px;
 }
 
 .heroTwo {
@@ -151,4 +155,188 @@
 
 .hmoney {
   width: 200px;
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+    height: auto;
+  }
+  .heroDiv {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .heroOne,
+  .heroTwo {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    /* padding: 20px; */
+  }
+
+  .heroOne {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroOneInner {
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .hBtnDiv {
+    /* border: 1px solid; */
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .vestBtn {
+    width: 95%;
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+    background-color: #0089ff;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .heroTitle {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    /* width: 90%; */
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(18, 34, 49);
+    line-height: 56px;
+  }
+
+  .heroDesc {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgb(61, 79, 96);
+  }
+
+  .hSpan1,
+  .hSpan2 {
+    width: 45%;
+    padding: 11px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 27px;
+  }
+
+  .hBtnDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .heroTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .h2Div {
+    width: 90%;
+    position: relative;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: float 5s ease-in-out infinite;
+    z-index: 0;
+  }
+
+  @keyframes floatDiv {
+    0% {
+      transform: translateY(10px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(10px);
+    }
+  }
+
+  .herogal {
+    width: 100%;
+    height: 100%;
+
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+
+  .tagDiv {
+    position: absolute;
+    top: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .safelock {
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  .flxnaira {
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  .pgbank {
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  .tsavings {
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  .investify {
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  .hmoney {
+    width: 100px;
+    margin-top: 20px;
+  }
 }

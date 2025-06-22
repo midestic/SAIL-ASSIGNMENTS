@@ -8,6 +8,7 @@ export default function Hero() {
           <div className="heroOne">
             <div className="heroOneInner">
               <button className="vestBtn">
+                <img src="/images/flower.svg" alt="" />
                 The 2024 PiggyVestSavings Report
               </button>
               <p className="heroTitle">The Better Way to Save & Invest</p>
@@ -17,7 +18,7 @@ export default function Hero() {
               </p>
               <div className="hBtnDiv">
                 <button className="hSpan1">
-                  <img src="/images/apple.png" width="20" alt="" />
+                  <img src="/images/whiteAppleLogo.svg" width="20" alt="" />
                   Get on iPhone
                 </button>
                 <button className="hSpan2">

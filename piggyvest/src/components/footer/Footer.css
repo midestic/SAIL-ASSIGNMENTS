@@ -117,3 +117,111 @@ ul :first-child {
   width: 65%;
   color: rgba(61, 79, 96, 0.65);
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .footDiv {
+    /* border: 1px solid; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 14px;
+  }
+
+  .fDivOne {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .fDivFive {
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .listDiv {
+    /* border: 1px solid yellow; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+  }
+
+  .fDivTwo,
+  .fDivThree,
+  .fDivFour {
+    width: 45%;
+    /* border: 1px solid; */
+    margin-top: 10px;
+  }
+
+  .fDivOne {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .f1 {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  .f2 {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  li {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  ul :first-child {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .fDivFive {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 30px;
+  }
+
+  .fDivFive div {
+    /* border: 1px solid; */
+    width: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fAddress {
+    text-align: start;
+    width: 95%;
+  }
+}

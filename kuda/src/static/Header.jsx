@@ -90,7 +90,7 @@ export default function Header() {
           <div className="w-[20%] flex justify-center items-center">
             <div className="w-[25px] h-[25px]  rounded-full flex justify-center items-center bg-[#9bb4b8]">
               <img
-                className="w-[80%] h-[80]"
+                className="w-[80%] h-[80%]"
                 src="/images/nigeria.png"
                 alt=""
               />

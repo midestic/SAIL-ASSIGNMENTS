@@ -2,7 +2,7 @@ import { RiArrowDownSFill } from "react-icons/ri";
 import { IoIosHome } from "react-icons/io";
 import { IoIosSend } from "react-icons/io";
 
-import Button from "../../reusable/Button";
+import Button from "../reusable/Button";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -10,14 +10,15 @@ export default function Header() {
   const [personal, setPersonal] = useState(false);
 
   return (
-    <div className="max-w-[1920px] mx-auto border-b border-gray-700">
+    <div className="max-w-[1920px] mx-auto border-b border-gray-700 max-md:hidden">
       <div className="max-w-[1280px] mx-auto  flex justify-between items-center">
         <div className="w-[50%]  flex justify-between items-center">
-          <Link to={"/"}>
-            <div className="w-[20%]  flex justify-between items-center">
+          <div className="w-[20%]  flex justify-between items-center">
+            <Link to={"/"}>
               <img className="h-[60px]" src="/images/kudabg.png" alt="" />
-            </div>
-          </Link>
+            </Link>
+          </div>
+
           <div className="w-[80%]  flex justify-between items-center ">
             <div className=" ">
               <span
@@ -40,14 +41,12 @@ export default function Header() {
                   <div className="w-[60%] h-[100%] flex flex-col gap-y-[14px] p-[10px]">
                     <span className="flex items-center gap-x-[5px]">
                       <IoIosHome />
-                      Discover Personal
+                      <Link to={"/personal"}>Discover Personal</Link>
                     </span>
                     <span className="flex items-center gap-x-[5px]">
-                      {" "}
                       <IoIosSend />
                       Transfer and Spend
                     </span>
-                    <span>dggdgdgd</span>
                   </div>
                   <div className="w-[39%] h-[100%] border-l border-gray-400 p-[10px]">
                     shhshsh
@@ -57,7 +56,7 @@ export default function Header() {
             </div>
 
             <span className="text-[#40196d] font-[700] text-[14px] flex items-center">
-              Business
+              <Link to={"/business"}>Business</Link>
               <span>
                 <RiArrowDownSFill />
               </span>

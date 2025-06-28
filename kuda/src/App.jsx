@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/static/Header";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <Header />
 
         <Routes>
-          <Route />
+          <Route index element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -3,13 +3,13 @@ import Button from "../../reusable/Button";
 
 export default function Header() {
   return (
-    <div className="max-w-[1920px] mx-auto border">
-      <div className="max-w-[1280px] mx-auto border flex justify-between items-center">
-        <div className="w-[50%] border flex justify-between items-center">
-          <div className="w-[20%] border flex justify-between items-center">
+    <div className="max-w-[1920px] mx-auto border-b border-gray-700">
+      <div className="max-w-[1280px] mx-auto  flex justify-between items-center">
+        <div className="w-[50%]  flex justify-between items-center">
+          <div className="w-[20%]  flex justify-between items-center">
             <img className="h-[60px]" src="/images/kudabg.png" alt="" />
           </div>
-          <div className="w-[80%] border flex justify-between items-center ">
+          <div className="w-[80%]  flex justify-between items-center ">
             <span className="text-[#40196d] font-[700] text-[14px] flex items-center">
               Personal
               <span>
@@ -36,7 +36,7 @@ export default function Header() {
             </span>
           </div>
         </div>
-        <div className="w-[30%] border flex justify-around items-center">
+        <div className="w-[30%]  flex justify-around items-center">
           <div className="flex justify-between items-center w-[70%] gap-x-[10px]">
             <Button
               className="text-[#40196d] font-[700] text-[14px] px-[10px] py-[10px]"
